@@ -1,3 +1,5 @@
+import 'package:app/screen/home.dart';
+import 'package:app/screen/more.dart';
 import 'package:flutter/material.dart';
 
 class React extends StatefulWidget {
@@ -15,14 +17,14 @@ class _ReactState extends State<React> {
     switch(currentScreen)
     {
       case ScreenType.HOME:
-        return Text("Home");
+        return ReactHome();
       case ScreenType.MORE:
-        return Text("More");
+        return MoreScreen();
     }
 
     return Text("INVALID SCREEN!");
   }
-
+ 
   void setScreen(ScreenType type)
   {
     setState(() {
