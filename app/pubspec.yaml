@@ -7,8 +7,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^2.7.1 ## Superpowers
+  universal_html: ^1.2.2 ## Hacky HTML hax
+  progress_dialog: ^1.2.2 ## Dumb progress
+  reorderables: ^0.3.2 ## Reorderable stuff
+  auto_animated: ^2.1.0 ## Auto animations for lists
+  shared_preferences: ^0.5.7+2 ## For property storage
+  dio: ^3.0.9 ## A fantastic httpclient
+  auto_size_text: ^2.1.0 ## Woo
+  permission_handler: ^5.0.0+hotfix.6 ## Better permission fixes
+  http: ^0.12.1 ## HTTP Client for web
+  hive: ^1.4.1+1 ## Storage for secured data
+  hive_flutter: ^0.3.0+2 ## Why
+  logger: ^0.7.0+2 ## Amazing Logging including in app
+  logger_flutter: ^0.7.1 ## Logging In app
+  uuid: ^2.0.4 ## UUID gen
+  json_annotation: ^3.0.1 ## JSON Code Gen
+  lzstring: ^1.0.1+2 ## String compression
+  transparent_image: ^1.0.0 ## Dumb shit
+  shimmer: ^1.1.1 ## Animations
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  hive_generator: ^0.7.0+2 ## For Hive
+  build_runner: ^1.8.1 ## For Hive & Others
+  json_serializable: ^3.3.0 ## JSON Code Gen
 flutter:
   uses-material-design: true
